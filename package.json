@@ -1,0 +1,25 @@
+{
+  "name": "simple-normalizr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dist": "webpack -p --progress --colors --display-error-details",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "standard": "^14.3.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
